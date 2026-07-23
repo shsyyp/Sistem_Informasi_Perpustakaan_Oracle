@@ -10,4 +10,4 @@ FROM peminjaman p
 INNER JOIN anggota a
 ON p.id_anggota = a.id_anggota
 INNER JOIN buku b
-ON p.id_buku = b.id_buku;
+ON p.id_buku = b.id_buku
